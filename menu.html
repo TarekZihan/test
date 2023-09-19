@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #FFF;
+        }
+
+        nav {
+            background: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 220px;
+        }
+
+        .logo h2 {
+            color: var(--White, #FFF);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+
+        }
+
+        nav ul {
+            display: flex;
+
+        }
+
+        nav ul li {
+            list-style: none;
+
+
+        }
+
+        nav ul li a {
+            color: var(--White, #FFF);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 15px;
+
+        }
+
+        button {
+            color: #000;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            padding: 14px 32px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+
+        }
+
+        span {
+            padding: 15px;
+            font-size: 15px;
+        }
+
+        .search i {
+            font-size: 30px;
+        }
+
+        .background {
+            background: #373737;
+            padding: 1px 80px 1px ;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h2><i style="color: #149BFC;" class='bx bxs-star'></i>Logo</h2>
+        </div>
+
+        <div class="background">
+            <div class="search">
+                <i class='bx bx-search'></i><span> Search for anything</span>
+            </div>
+
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+
+        </ul>
+
+        <button>Buy Now</button>
+
+
+    </nav>
+</body>
+
+</html>

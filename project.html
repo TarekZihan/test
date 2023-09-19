@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            font-family: sans-serif;
+
+        }
+
+        .container {
+            background: hwb(0 96% 3%);
+            height: 100vh;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .logo img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        .container_item {
+            margin-top: 26px;
+
+
+        }
+
+        .container_item img {
+            vertical-align: middle;
+
+        }
+
+        .container_item ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container_item ul li {
+
+            list-style: none;
+
+
+        }
+
+        .container_item ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 15px 50px;
+
+        }
+
+        .container_item ul li a:hover {
+            background: gray;
+            border-radius: 15px;
+        }
+
+        .background{
+            background: #bbbb;
+            width: 100%;
+            height: 70px;
+            padding: 0 25px;
+           
+        }
+      
+
+        nav {
+            margin-top:10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        nav a {
+            text-decoration: none;
+        } 
+
+        button{
+            background:  #0b4461 ;
+            padding: 12px 50px;
+            color: aliceblue;
+            border-radius: 10px;
+            margin-right: 50px;
+        }
+        .bacground_small{
+            display: flex;
+            align-items: center;
+        }
+        .main{
+            width: 400px;
+            display: flex;
+           
+        }
+ 
+    .portfolio{
+        border: 1px solid rgba(0,0,0,0.4);
+        border-radius: 8px;
+        padding: 30px;
+
+    }
+    .portfolio_card1{
+        text-align: center;
+    }
+
+    .logo1{
+        display: flex;
+        justify-content: center;
+    }
+    .chart{
+        display: flex;
+        align-self: flex-end;
+    }
+   
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- sidebar -->
+
+     <div class="container">
+
+        <div class="logo">
+            <img src="/img/logo/logo.png" alt="">
+        </div>
+
+        <div class="container_item">
+            <ul>
+                <li><a href="#"><img src="./img/add-parcel.png" alt="">Add Parcel</a></li>
+                <li><a href="#"><img src="/img/dashboard-icon.png" alt="">Dashboard </a></li>
+                <li><a href="#"><img src="./img/shops.png" alt="">Shops</a></li>
+                <li><a href="#"><img src="./img/total-parcel-list.png" alt="">Total Parcel List</a></li>
+                <li><a href="#"><img src="./img/percel-statistics.png" alt="">Parcel Statistics</a></li>
+                <li><a href="#"><img src="./img/track-percel.png" alt="">Track parcel</a></li>
+                <li><a href="#"><img src="./img/track-percel.png" alt="">Coverage Area</a></li>
+                <li><a href="#"><img src="./img/payment-list.png" alt="">Payment List</a></li>
+                <li><a href="#"><img src="./img/merchant-statement.png" alt="">Merchant Statement</a></li>
+                <li><a href="#"><img src="./img/pickup-request.png" alt="">Pickup Request List</a></li>
+                <li><a href="#"><img src="./img/return-request.png" alt="">Return Request List</a></li>
+                <li><a href="#"><img src="./img/delivery-complete.png" alt="">Delivery Complete Parcel List</a></li>
+                <li><a href="#"><img src="./img/pricing-calculator.png" alt="">Pricing Cauculator</a></li>
+                <li><a href="#"><img src="./img/support.png" alt="">Support</a></li>
+                <li><a href="#"><img src="./img/log-out.png" alt="">Logout</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+  <!-- Nav -->
+
+    <div class="background" >
+    
+        <nav>
+            <p>Dashboard</p>
+            <div class="bacground_small">
+                <a href=""><button>Add parcel</button></a>
+                <img src="/img/nav logo/avatar.png" alt="logo">
+            </div>
+    
+        </nav>
+    
+     <!-- portfolio -->
+
+        <div class="main">
+            <h5>Dashboard</h5>
+            
+                <div class="portfolio">
+        
+                    <div class="portfolio-card">
+        
+                        <div class="logo1">
+                            <img src="/img/nav logo/avatar.png" alt="">
+                        </div>
+                                <div class="portfolio_card1">
+                                    <h2>Hasib Enter Price</h2>
+                                    <p>0123456789</p>
+                                    <p>Mirpur Hub</p>
+                    
+                                    <div class="portfolio_button">
+                                        <span>balance</span>
+                                        <span>:</span>
+                                        <span>1403 ৳</span>
+                                    </div>
+                    
+                                </div>
+                       
+                    </div>
+                </div>
+                <div class="chart">
+                    <div class="chart_part">
+                        <img src="/img/logo/logo.png" alt="">
+                        <p>Date:6 Jan 2023</p>
+                        <button>Today Outcome</button>
+                    </div>
+                </div>
+            
+        </div>
+
+        <!-- chart -->
+
+       
+
+
+    
+    </div>
+
+
+
+
+
+    
+
+
+
+
+</body>
+
+</html>
